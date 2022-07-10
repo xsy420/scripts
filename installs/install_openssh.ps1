@@ -1,3 +1,5 @@
+Set-ExecutionPolicy -ExecutionPolicy Bypass
+
 Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*'
 
 # Install the OpenSSH Client
